@@ -7,3 +7,16 @@ config.py
 # .links files are (currently) used to store the links of the users. 
 *.sqlite
 *.links
+*.maps
+__pycache__
+
+
+#### NO SECRETS
+# Apikeys are sensitivy informations. Let's not include those.
+# And, as an additional note, use the filename format: "<service>.api-key.txt"
+# for future api-keys to future services.
+*.api-key.txt
+/.vs/SigmaPrototype/v14
+/env
+/SigmaPrototype.pyproj
+/SigmaPrototype.sln
